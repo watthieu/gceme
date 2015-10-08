@@ -1,5 +1,4 @@
-
-de('docker') {
+node('docker') {
   checkout scm
 
   // Kubernetes cluster info
